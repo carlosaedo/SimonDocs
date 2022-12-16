@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  background-color: #1e2122;
+}
+
+#level-title {
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #FEF2BF;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: rgb(153, 16, 16);
+  opacity: 0.8;
+}
+
+.red {
+  background-image: url(images/documento_red.png);
+  background-color: rgb(255, 58, 23);
+}
+
+.green {
+  background-image: url(images/documento_green.png);
+  background-color: rgb(129, 197, 74);
+}
+
+.blue {
+  background-image: url(images/documento_blue.png);
+  background-color: rgb(75, 135, 214);
+}
+
+.yellow {
+  background-image: url(images/documento_yellow.png);
+  background-color: rgb(221, 221, 76);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
